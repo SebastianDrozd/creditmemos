@@ -1,7 +1,14 @@
 .container {
   padding: 2rem;
   font-family: sans-serif;
+  
 }
+.sortableHeader {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  gap: 4px;
+} 
 
 .topBar {
   display: flex;

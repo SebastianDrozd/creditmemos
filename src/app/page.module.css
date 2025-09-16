@@ -15,7 +15,9 @@
   gap: 64px;
   font-family: var(--font-geist-sans);
 }
-
+.container{
+    background: #f6f7f9;
+}
 @media (prefers-color-scheme: dark) {
   .page {
     --gray-rgb: 255, 255, 255;
@@ -32,6 +34,7 @@
   flex-direction: column;
   gap: 32px;
   grid-row-start: 2;
+    background: #f6f7f9;
 }
 
 .main ol {
